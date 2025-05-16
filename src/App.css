@@ -1,0 +1,11 @@
+body{font-size: 1.4rem; background-color: #e2f0dd; display: flex; 
+  justify-content: center; align-items: center; min-height: 100vh;}
+.wrap{background-color: #fff; padding: 50px 4vw; border-radius: 20px; 
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1); text-align: center;}
+h1{font-size: 4rem;}
+.number{font-size: 10rem; font-weight: 700; padding: 30px; 
+  background: linear-gradient(#62bb00, #b2de00); color: transparent; background-clip: text;}
+  /*background-clip은 백그라운드를 어디에 지정하냐를 결정하는 속성*/
+.btn button{width: 50px; height: 50px; background-color: #000; color: #fff; border-radius: 50%;
+  margin: 0 2px;}
+.btn button.reset{width: 70px; height: 70px; background-color: #8cce00;}
